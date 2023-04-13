@@ -85,19 +85,19 @@ ul {
     font-size: 1rem;
     font-family: 'Overpass', sans-serif;
     color: white;
-    background-color: var(--orange);
+    background-color: var(--very-light-grey);
 }
 
-.rating-list .btn-rate:hover {
+.btn-rate:hover {
     cursor: pointer;
     color: var(--white);
     background-color: var(--medium-ledium-grey);
 }
 
-.rating-list .selected {
-    background-color: var(--bg-dark-blue);
-    color: var(--very-light-grey);  
-}  
+.btn-rate:focus{
+    background-color: var(--orange);
+    color: var(--white);
+} 
 
 .btn-submit {
     color: white;
